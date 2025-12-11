@@ -1,3 +1,5 @@
+#               ====== CODESYS ======
+
 # Negeren van CoDesys user settings en cache data
 *.opt
 *.precompilecache
@@ -8,3 +10,19 @@
 # Backups zijn voor noobjes
 *.bak
 *.backup
+
+
+#               ====== FACTORY I/O ======
+
+# Factory I/O – negeren temp and autosave files
+*.factoryio-autosave
+*.bak
+*.backup
+*.log
+Cache/
+Temp/
+
+# Negeren preview images
+*.png
+*.jpg
+
