@@ -1,0 +1,10 @@
+# Negeren van CoDesys user settings en cache data
+*.opt
+*.precompilecache
+*.compileinfo
+*.settings
+*.userdata
+
+# Backups zijn voor noobjes
+*.bak
+*.backup
