@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Symbolconfiguration xmlns="http://www.3s-software.com/schemas/Symbolconfiguration.xsd">
+  <Header>
+    <Version>3.5.14.0</Version>
+    <SymbolConfigObject version="4.6.1.0" runtimeid="3.5.21.30" libversion="4.6.0.0" compiler="3.5.21.30" lmm="3.5.21.30" profile="CODESYS V3.5 SP21 Patch 3+" settings="SupportOPCUA, LayoutCalculator=OptimizedClientSideLayoutCalculator" />
+    <ProjectInfo name="Frikandellen Code" devicename="Device" appname="Application" />
+  </Header>
+  <TypeList>
+    <TypeSimple name="T_BOOL" size="1" swapsize="0" typeclass="Bool" iecname="BOOL" />
+  </TypeList>
+  <NodeList>
+    <Node name="Application">
+      <Node name="FIO">
+        <Node name="PalletInFeed1" type="T_BOOL" access="ReadWrite" />
+        <Node name="Palletizer0ElevatorBackSensor" type="T_BOOL" access="ReadWrite" />
+        <Node name="Palletizer0ElevatorFrontSensor" type="T_BOOL" access="ReadWrite" />
+        <Node name="Palletizer0ElevatorMoveToLimit" type="T_BOOL" access="ReadWrite" />
+        <Node name="Palletizer0ElevatorUp" type="T_BOOL" access="ReadWrite" />
+        <Node name="Palletizer0ForwardChain" type="T_BOOL" access="ReadWrite" />
+        <Node name="StartKnop" type="T_BOOL" access="ReadWrite" />
+        <Node name="StopKnop" type="T_BOOL" access="ReadWrite" />
+      </Node>
+    </Node>
+  </NodeList>
+</Symbolconfiguration>
