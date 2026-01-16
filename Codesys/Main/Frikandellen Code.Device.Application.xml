@@ -11,6 +11,24 @@
   <NodeList>
     <Node name="Application">
       <Node name="FIO">
+        <Node name="Curry_Emit" type="T_BOOL" access="ReadWrite" />
+        <Node name="Curry_Two_Axis_Pick_Place_DETEC" type="T_BOOL" access="ReadWrite" />
+        <Node name="Curry_Two_Axis_Pick_Place_GRAB" type="T_BOOL" access="ReadWrite" />
+        <Node name="Curry_Two_Axis_Pick_Place_X" type="T_BOOL" access="ReadWrite" />
+        <Node name="Curry_Two_Axis_Pick_Place_Z" type="T_BOOL" access="ReadWrite" />
+        <Node name="CurryConveyor_Infeed" type="T_BOOL" access="ReadWrite" />
+        <Node name="CurryConveyor_Mainline" type="T_BOOL" access="ReadWrite" />
+        <Node name="CurrySensor_Infeed" type="T_BOOL" access="ReadWrite" />
+        <Node name="CurrySensor_MainLine" type="T_BOOL" access="ReadWrite" />
+        <Node name="Mayo_Emit" type="T_BOOL" access="ReadWrite" />
+        <Node name="Mayo_Two_Axis_Pick_Place_DETEC" type="T_BOOL" access="ReadWrite" />
+        <Node name="Mayo_Two_Axis_Pick_Place_GRAB" type="T_BOOL" access="ReadWrite" />
+        <Node name="Mayo_Two_Axis_Pick_Place_X" type="T_BOOL" access="ReadWrite" />
+        <Node name="Mayo_Two_Axis_Pick_Place_Z" type="T_BOOL" access="ReadWrite" />
+        <Node name="MayoConveyor_Infeed" type="T_BOOL" access="ReadWrite" />
+        <Node name="MayoConveyor_Mainline" type="T_BOOL" access="ReadWrite" />
+        <Node name="MayoSensor_Infeed" type="T_BOOL" access="ReadWrite" />
+        <Node name="MayoSensor_MainLine" type="T_BOOL" access="ReadWrite" />
         <Node name="PalletInFeed1" type="T_BOOL" access="ReadWrite" />
         <Node name="Palletizer0Clamp" type="T_BOOL" access="ReadWrite" />
         <Node name="Palletizer0ElevatorBackSensor" type="T_BOOL" access="ReadWrite" />
@@ -23,9 +41,20 @@
         <Node name="Palletizer0Push" type="T_BOOL" access="ReadWrite" />
         <Node name="Palletizer0Turn" type="T_BOOL" access="ReadWrite" />
         <Node name="PalletizerinfeedSenor1" type="T_BOOL" access="ReadWrite" />
+        <Node name="Start_Emit" type="T_BOOL" access="ReadWrite" />
         <Node name="StartKnop" type="T_BOOL" access="ReadWrite" />
+        <Node name="StartKnop2" type="T_BOOL" access="ReadWrite" />
         <Node name="StopBlade2" type="T_BOOL" access="ReadWrite" />
         <Node name="StopKnop" type="T_BOOL" access="ReadWrite" />
+        <Node name="Ui_Emit" type="T_BOOL" access="ReadWrite" />
+        <Node name="Ui_Two_Axis_Pick_Place_DETEC" type="T_BOOL" access="ReadWrite" />
+        <Node name="Ui_Two_Axis_Pick_Place_GRAB" type="T_BOOL" access="ReadWrite" />
+        <Node name="Ui_Two_Axis_Pick_Place_X" type="T_BOOL" access="ReadWrite" />
+        <Node name="Ui_Two_Axis_Pick_Place_Z" type="T_BOOL" access="ReadWrite" />
+        <Node name="UiConveyor_Infeed" type="T_BOOL" access="ReadWrite" />
+        <Node name="UiConveyor_Mainline" type="T_BOOL" access="ReadWrite" />
+        <Node name="UiSensor_Infeed" type="T_BOOL" access="ReadWrite" />
+        <Node name="UiSensor_MainLine" type="T_BOOL" access="ReadWrite" />
       </Node>
     </Node>
   </NodeList>
