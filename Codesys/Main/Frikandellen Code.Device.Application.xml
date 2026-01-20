@@ -32,6 +32,7 @@
         <Node name="MayoConveyor_Mainline" type="T_BOOL" access="ReadWrite" />
         <Node name="MayoSensor_Infeed" type="T_BOOL" access="ReadWrite" />
         <Node name="MayoSensor_MainLine" type="T_BOOL" access="ReadWrite" />
+        <Node name="PackingSensor_Mainline" type="T_BOOL" access="ReadWrite" />
         <Node name="PalletInFeed1" type="T_BOOL" access="ReadWrite" />
         <Node name="Palletizer0Clamp" type="T_BOOL" access="ReadWrite" />
         <Node name="Palletizer0ElevatorBackSensor" type="T_BOOL" access="ReadWrite" />
@@ -44,6 +45,7 @@
         <Node name="Palletizer0Push" type="T_BOOL" access="ReadWrite" />
         <Node name="Palletizer0Turn" type="T_BOOL" access="ReadWrite" />
         <Node name="PalletizerinfeedSenor1" type="T_BOOL" access="ReadWrite" />
+        <Node name="Pallitiser_Emit" type="T_BOOL" access="ReadWrite" />
         <Node name="PushSensor_Errorline" type="T_BOOL" access="ReadWrite" />
         <Node name="PushSensor_Mainline" type="T_BOOL" access="ReadWrite" />
         <Node name="Scale_Conveyor_MainLine" type="T_BOOL" access="ReadWrite" />
