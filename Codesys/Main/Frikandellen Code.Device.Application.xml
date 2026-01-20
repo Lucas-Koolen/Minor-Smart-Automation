@@ -46,10 +46,12 @@
         <Node name="PalletizerinfeedSenor1" type="T_BOOL" access="ReadWrite" />
         <Node name="PushSensor_Errorline" type="T_BOOL" access="ReadWrite" />
         <Node name="PushSensor_Mainline" type="T_BOOL" access="ReadWrite" />
+        <Node name="Scale_Conveyor_MainLine" type="T_BOOL" access="ReadWrite" />
         <Node name="ScaleSensor_Mainline" type="T_BOOL" access="ReadWrite" />
         <Node name="Start_Emit" type="T_BOOL" access="ReadWrite" />
         <Node name="StartKnop" type="T_BOOL" access="ReadWrite" />
         <Node name="StartKnop2" type="T_BOOL" access="ReadWrite" />
+        <Node name="StartKnop3" type="T_BOOL" access="ReadWrite" />
         <Node name="StopBlade2" type="T_BOOL" access="ReadWrite" />
         <Node name="StopKnop" type="T_BOOL" access="ReadWrite" />
         <Node name="Ui_Emit" type="T_BOOL" access="ReadWrite" />
