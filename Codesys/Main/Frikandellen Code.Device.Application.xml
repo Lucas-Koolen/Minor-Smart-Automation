@@ -28,6 +28,7 @@
         <Node name="CurrySensor_Infeed" type="T_BOOL" access="ReadWrite" />
         <Node name="CurrySensor_MainLine" type="T_BOOL" access="ReadWrite" />
         <Node name="CurryUiConveyor_MainLine" type="T_BOOL" access="ReadWrite" />
+        <Node name="Emergency_Reset_All" type="T_BOOL" access="ReadWrite" />
         <Node name="EmergencyKnop_GUI" type="T_BOOL" access="ReadWrite" />
         <Node name="EmergencyReset" type="T_BOOL" access="ReadWrite" />
         <Node name="Mayo_Emit" type="T_BOOL" access="ReadWrite" />
@@ -62,6 +63,7 @@
         <Node name="PalletizerinfeedSenor1" type="T_BOOL" access="ReadWrite" />
         <Node name="PalletOutfeed1" type="T_BOOL" access="ReadWrite" />
         <Node name="Pallitiser_Emit" type="T_BOOL" access="ReadWrite" />
+        <Node name="Pauze_All" type="T_BOOL" access="ReadWrite" />
         <Node name="Pauze_Knob_Light" type="T_BOOL" access="ReadWrite" />
         <Node name="Pauze_Knob_NC" type="T_BOOL" access="ReadWrite" />
         <Node name="PauzeKnop_GUI" type="T_BOOL" access="ReadWrite" />
@@ -76,8 +78,6 @@
         <Node name="Start_Emit" type="T_BOOL" access="ReadWrite" />
         <Node name="StartConveyor_Mainline" type="T_BOOL" access="ReadWrite" />
         <Node name="StartKnop" type="T_BOOL" access="ReadWrite" />
-        <Node name="StartKnop2" type="T_BOOL" access="ReadWrite" />
-        <Node name="StartKnop3" type="T_BOOL" access="ReadWrite" />
         <Node name="StopBlade2" type="T_BOOL" access="ReadWrite" />
         <Node name="Triggerd_Light" type="T_BOOL" access="ReadWrite" />
         <Node name="Ui_Emit" type="T_BOOL" access="ReadWrite" />
